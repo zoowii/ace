@@ -40,9 +40,9 @@
     background: rgba(0, 0, 0, 0.01);
 }
 
-.ace_selecting, .ace_selecting * {
+/*.ace_selecting, .ace_selecting * {
     cursor: text !important;
-}
+}*/
 
 .ace_gutter {
     position: absolute;
@@ -425,6 +425,10 @@
     background-color: rgba(255, 255, 0,0.2);
     position: absolute;
     z-index: 8;
+}
+.ace_lineWidgetContainer {
+    z-index: 5;
+    position: absolute;
 }
 
 /*
